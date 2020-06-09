@@ -126,6 +126,51 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.zoomInstructions {
+    background-color: #F9F4F5;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-radius: 8px;
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+}
+.zoomInstructions .header {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #70587C;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.zoomInstructions .code {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 18px;
+}
+.zoomInstructions span {
+    color: #502F4C;
+    font-weight: 600;
+}
+.zoomInstructions .joinButton {
+    background-color: #70587C;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+.zoomInstructions .joinButton:active {
+    background-color: #502F4C;
+}
 .footer {
     background-color: #fff;
     color: #d0d0d0;
