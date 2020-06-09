@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.section {
+    display: inline-block;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section .title {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: #355D55; /* Stromboli */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section .content {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1F3540;
+    padding-top: 10px;
+}
+.section .content .list {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.section .content table {
+    line-height: 25px;
+    font-size: 16px;
+}
+.section .content table td {
+    vertical-align: text-top;
+}
+.section .content table img {
+    width: 100%;
+}
+
+.hero {
+    height: 600px;
+    max-width: none;
+    background: url(../imgs/header_darker.jpg);
+    background-size: cover;
+    background-position: center center;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 50%;
+    max-width: 400px;
+}
+
+.filmStrip {
+    height: 300px;
+    max-width: none;
+    background: url(../imgs/film-strip.jpg);
+    background-size: cover;
+    background-position: top center;
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 300px;
+}
+
+.line {
+    background-color: #E8E8E8;
+    display: inline-block;
+}
+.line, .vertical {
+    width: 2px;
+}
+.line, .horizontal {
+    height: 1px;
+}
+
+.footer {
+    background-color: #fff;
+    color: #d0d0d0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 28px;
+}
+.footer a {
+    outline: none;
+    text-decoration: none;
+}

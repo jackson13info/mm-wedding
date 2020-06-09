@@ -1,0 +1,46 @@
+.navigationBar {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    height: 60px;
+    z-index: 1000;
+}
+.navigationBar .container {
+    display: inline-block;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    clear: both;
+    color: #fff;
+}
+.navigationBar .container .logo {
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+}
+.navigationBar .container .items {
+    display: inline-block;
+    float: right;
+}
+.navigationBar .container .items a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+.navigationBar .container .items .item {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 60px;
+    cursor: pointer;
+    width: 100px;
+}
+.navigationBar .container .items .item:hover {
+    font-weight: 600;
+}

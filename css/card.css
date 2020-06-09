@@ -1,0 +1,87 @@
+.cardHolder {
+    text-align: left;
+    vertical-align: top;
+}
+.cardHolder a {
+    text-decoration: none;
+    outline: none;
+}
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    border: solid thin #e8e8e8;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 5px;
+}
+.card .header {
+    position: relative;
+    background-color: #fff;
+    height: 175px;
+    overflow: hidden;
+    border-bottom: solid thin #e8e8e8;
+    cursor: pointer;
+}
+.card .header .name {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    line-height: 24px;
+}
+.card .header .price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: solid thin #FFF;
+    border-radius: 5px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+}
+.card .header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .details {
+    background-color: #f9f9f9;
+    line-height: 18px;
+    text-align: left;
+    padding: 5px;
+    height: 100%;
+}
+.card .details .row {
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 5px;
+}
+.card .details .row span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+.card .details .row .subtext {
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardHolder {
+        text-align: center;
+    }
+}
